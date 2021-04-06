@@ -11,5 +11,5 @@ By Clicking <a href="https://github.com/arsalanamanat/HYF-Module-HTMLCSSGIT/tree
 I have also uploaded my Digital Resume. Your Feedback - Comments and Suggestions will be Appreciated.
 To view the digital Resume Code Click <a href="https://github.com/arsalanamanat/HYF-Module-HTMLCSSGIT/tree/master/First%20Week/resume1.html">Here</a>
 
-To View this Digital Resume on CodePen Link Please Click<font size="18px"> <a href="https://codepen.io/arsalan-amanat/project/full/Zmqobb">Here</a></font>
+To View this Digital Resume on CodePen Link Please Click <a href="https://codepen.io/arsalan-amanat/project/full/Zmqobb">Here</a></font>
 

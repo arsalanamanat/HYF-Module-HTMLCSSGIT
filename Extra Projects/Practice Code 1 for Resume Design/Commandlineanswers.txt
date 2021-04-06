@@ -1,0 +1,33 @@
+Answers to the Question
+
+How to Hide a File or FOlder Using Line?
+
+Hide File  : attrib +h <Name of the File >
+UnHide File: attrib -h <Name of the File >
+
+
+How to Create Hidden Folder?
+
+mkdir .<Foldername>
+The point in the beginning creates hidden folder
+
+Also we can use mv command to create a hidden file
+mv <filename>.txt .<file>.txt 
+
+To display use:
+
+ls -a
+
+How to Create Multiple Nested Directories 
+
+mkdir -p Foldername/Foldername/Foldername/Foldername
+
+
+How do I append a message to a file, without a newline character, so the output would be?
+
+(
+Echo My Name is Arslan 
+Echo Am Writing Second Line
+Echo To Create Multiple Lines
+Echo Without using n character
+) >> Filename.txt

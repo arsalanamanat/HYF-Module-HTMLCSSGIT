@@ -1,0 +1,342 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-body {
+  width: 80%;
+  margin: auto;
+}
+
+.main-body .header {
+  width: 100%;
+  margin-top: 20px;
+  height: 250px;
+  background-color: rgb(26, 27, 27);
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-style: unset;
+  border-radius: 20%;
+  box-shadow: 0px 0px 10px 0px yellowgreen;
+}
+
+.header img {
+  width: 250px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  border: 5px solid white;
+  box-shadow: 3px 3px 10px grey;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.header img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+.header-text {
+  width: 60%;
+  color: white;
+  margin-left: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+.header-text p {
+  font-size: 1.5rem;
+  color: lightgray;
+}
+
+.content {
+  display: flex;
+}
+
+.left-area {
+  width: 30%;
+  background-color: rgb(187, 183, 183);
+  text-align: center;
+  border-radius: 20%;
+  border: 2px dashed orange;
+  box-shadow: 0px 0px 10px 0px;
+}
+
+.left-area .contact {
+  margin-top: 150px;
+}
+
+.left-area h4,
+h5,
+p {
+  margin: 10px;
+}
+
+.content h4 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.content h5 {
+  font-size: 1.2rem;
+}
+
+.content p {
+  font-size: 1rem;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.bars {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px 10px;
+  padding: 0px 15px;
+}
+
+.bars .bar p {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.bar span {
+  display: block;
+  background-color: rgb(134, 133, 133);
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.bar.photoshop span::before {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.bar.html span::before {
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.bar.java span::before {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.bar.mysql span::before {
+  position: absolute;
+  content: '';
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.bar.webdesign span::before {
+  position: absolute;
+  content: '';
+  width: 85%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.bar.photography span::before {
+  position: absolute;
+  content: '';
+  width: 90%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.follow {
+  margin-top: 50px;
+}
+
+.follow h1 {
+  font-size: 1.5rem;
+}
+
+.follow h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.right-area {
+  width: 70%;
+  padding: 30px;
+}
+
+.right-area h1 span {
+  font-size: 50px;
+  color: lightgrey;
+  margin-right: 35px;
+}
+
+.right-area p {
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 70px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.Work .work-group {
+  position: relative;
+}
+
+.work-group h3 {
+  margin: auto;
+  font-size: 1.5rem;
+  padding-left: 75px;
+  font-weight: Normal;
+}
+.work-group h4 {
+  margin: auto;
+  font-size: 1rem;
+  padding-left: 80px;
+  color: rgb(88, 88, 88);
+  font-weight: bold;
+}
+.work-group span {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: black;
+  padding-left: 75px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.edu h3 {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.edu p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.last-box {
+  width: 57%;
+  position: absolute;
+  background-color: rgb(228, 228, 228);
+  border-radius: 15%;
+  box-shadow: 0px 0px 10px 0px;
+}
+
+.edu-list ul {
+  list-style: none;
+}
+.edu-list {
+  width: 50%;
+}
+
+.edu-list p {
+  margin-bottom: 10px;
+}
+
+.edu-list2 ul {
+  list-style: none;
+}
+
+.edu-list2 p {
+  margin-top: 10px;
+}
+
+.edu-list2 {
+  width: 40%;
+  position: absolute;
+  right: 100px;
+  top: 0px;
+}
+
+.bar.communication span::before {
+  position: absolute;
+  content: '';
+  width: 70%;
+  height: 100%;
+  background-color: royalblue;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.bar.teamwork span::before {
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 100%;
+  background-color: royalblue;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.bar.presentation span::before {
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 100%;
+  background-color: royalblue;
+  border-radius: 70px;
+  left: 0px;
+}
+
+.bar.adapt span::before {
+  position: absolute;
+  content: '';
+  width: 90%;
+  height: 100%;
+  background-color: royalblue;
+  border-radius: 10px;
+  left: 0px;
+}
+
+.qualification-cap {
+  position: relative;
+  top: 300px;
+}
+.qualification-cap ul {
+  list-style: none;
+}
+
+.qualification-cap h3 {
+  margin: 0px;
+  padding-left: 30px;
+}
+
+.qualification-cap p {
+  margin: 0px 0px 10px;
+  padding-left: 30px;
+}

@@ -38,13 +38,23 @@ header h1 {
   text-shadow: 0px 0px 10px black;
 }
 
-header h3 {
+header h2 {
   font-size: 1.5rem;
   font-family: pacifico, cursive;
   font-weight: normal;
   text-shadow: 0px 0px 10px black;
   text-decoration-style: double;
 }
+
+
+.social-icons {
+  font-size: 1.5rem;
+  font-family: pacifico, cursive;
+  font-weight: normal;
+  text-shadow: 0px 0px 10px black;
+  text-decoration-style: double;
+}
+
 
 .img-profile {
   width: 300px;
@@ -62,7 +72,7 @@ header h3 {
   transform: scale(1.1);
 }
 
-.social-icons h3 {
+.social-icons {
   color: white;
   padding: 10px;
   display: inline-block;
@@ -74,7 +84,7 @@ header i:hover {
 }
 
 /*  Container Start Here */
-.container {
+.personal-info-contact-info {
   display: flex;
   width: 80%;
   height: auto;
@@ -82,7 +92,7 @@ header i:hover {
   margin-top: 30px;
 }
 
-.container .left {
+.personal-info-contact-info  .left {
   width: 50%;
   background: rgb(5, 139, 248);
   box-shadow: 0px 0px 05px 0px black;
@@ -93,23 +103,23 @@ header i:hover {
   padding: 20px;
 }
 
-.container .left:hover {
+.personal-info-contact-info  .left:hover {
   transform: scale(1.04);
   filter: drop-shadow(0px 0px 3px black);
 }
 
-.container .left h1 {
+.personal-info-contact-info  .left h3 {
   font-size: 2rem;
   text-shadow: 0px 2px 2px black;
 }
 
-.container .left p {
+.personal-info-contact-info  .left p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   text-align: justify;
   text-shadow: 0px 0px 10px black;
 }
-.container .right {
+.personal-info-contact-info  .right {
   width: 50%;
   border-radius: 2px;
   background-color: white;
@@ -119,25 +129,35 @@ header i:hover {
   padding: 20px;
 }
 
-.container .right:hover {
+.personal-info-contact-info  .right:hover {
   transform: scale(1.04);
   filter: drop-shadow(0px 0px 3px black);
 }
 
-.container .right h1 {
+.personal-info-contact-info  .right h3 {
   font-size: 2rem;
   color: black;
   text-align: center;
   text-shadow: 0px 2px 4px lightgrey;
 }
 
-.container .right h3 {
+.contact-head-icon {
+  text-align: center;
   font-size: 2rem;
   color: rgb(46, 46, 46);
   text-shadow: 0px 2px 4px lightgrey;
 }
 
-.container .right h4 {
+.contact-info-icons {
+
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(46, 46, 46);
+  text-shadow: 0px 2px 4px lightgrey;
+}
+
+
+.personal-info-contact-info  .right h4 {
   font-size: 1rem;
   color: black;
   padding: 20px;
@@ -146,7 +166,7 @@ header i:hover {
 
 /* Container1 Start Here */
 
-.container1 {
+.personal-experience-personal-skills {
   display: flex;
   position: relative;
   border-radius: 20px;
@@ -155,7 +175,7 @@ header i:hover {
   margin: 10px auto;
 }
 
-.container1 .left {
+.personal-experience-personal-skills .left {
   width: 70%;
   margin-right: 5px;
   background: white;
@@ -166,41 +186,41 @@ header i:hover {
   transition-duration: 0.5s;
   padding: 20px;
 }
-.container1 .left:hover {
+.personal-experience-personal-skills .left:hover {
   transform: scale(1.04);
   filter: drop-shadow(0px 0px 3px black);
 }
 
-.container1 ul {
+.personal-experience-personal-skills ul {
   margin: 0px;
   padding: 0px;
 }
 
-.container1 .left h3 {
+.personal-experience-personal-skills .left h3 {
   font-size: 1.5rem;
 }
 
-.container1 .left h1 {
+.personal-exp-head-icon {
   font-size: 2rem;
   color: black;
   text-align: left;
   text-shadow: 0px 2px 4px lightgrey;
 }
 
-.container1 .left h4 {
+.personal-experience-personal-skills .left h4 {
   font-size: 1rem;
   color: rgb(83, 83, 83);
   text-align: left;
 }
 
-.container1 .left ul {
+.personal-experience-personal-skills .left ul {
   font-size: 1rem;
   color: black;
   text-align: left;
   text-shadow: 0px 2px 4px lightgrey;
   list-style-type: none;
 }
-.container1 .right {
+.personal-experience-personal-skills .right {
   width: 30%;
   background-color: rgb(92, 92, 223);
   box-shadow: 0px 0px 05px 0px black;
@@ -210,28 +230,28 @@ header i:hover {
   padding: 20px;
 }
 
-.container1 .right:hover {
+.personal-experience-personal-skills .right:hover {
   transform: scale(1.04);
   filter: drop-shadow(0px 0px 3px black);
 }
 
-.container1 .right h1 {
+.personal-skill-icon-head {
   font-size: 2rem;
   color: white;
   text-align: center;
   text-shadow: 0px 2px 4px black;
 }
 
-.container1 .right p {
+.personal-experience-personal-skills .right p {
   font-size: 1.2rem;
   text-align: center;
 }
 
-.container1 .right ul {
+.personal-experience-personal-skills .right ul {
   list-style-type: none;
 }
 
-.container1 .bar span {
+.personal-experience-personal-skills .bar span {
   display: block;
   background-color: rgb(241, 237, 237);
   width: 75%;
@@ -243,7 +263,7 @@ header i:hover {
   border: 2px solid rgb(77, 76, 76);
 }
 
-.container1 .bar.communication span::after {
+.personal-experience-personal-skills .bar.communication span::after {
   position: absolute;
   content: '';
   width: 80%;
@@ -252,7 +272,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container1 .bar.presentation span::before {
+.personal-experience-personal-skills .bar.presentation span::before {
   position: absolute;
   content: '';
   width: 50%;
@@ -261,7 +281,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container1 .bar.time span::before {
+.personal-experience-personal-skills .bar.time span::before {
   position: absolute;
   content: '';
   width: 95%;
@@ -270,7 +290,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container1 .bar.problem span::before {
+.personal-experience-personal-skills .bar.problem span::before {
   position: absolute;
   content: '';
   width: 75%;
@@ -282,7 +302,7 @@ header i:hover {
 
 /* Container2 Start Here */
 
-.container2 {
+.edu-bkround-certificate {
   display: flex;
   position: relative;
   border-radius: 20px;
@@ -292,7 +312,7 @@ header i:hover {
   color: white;
 }
 
-.container2 .left {
+.edu-bkround-certificate .left {
   width: 50%;
   background: rgb(5, 139, 248);
   box-shadow: 0px 0px 05px 0px black;
@@ -303,47 +323,47 @@ header i:hover {
   padding: 20px;
 }
 
-.container2 .left:hover {
+.edu-bkround-certificate .left:hover {
   transform: scale(1.04);
   filter: drop-shadow(0px 0px 3px black);
 }
 
-.container2 .left h1 {
+.edu-bkround-certificate .left h1 {
   font-size: 2rem;
   color: WHITE;
   text-align: left;
   text-shadow: 0px 2px 4px black;
 }
 
-.container2 .left h3 {
+.edu-bkround-certificate .left h3 {
   font-size: 1.5rem;
   color: white;
 }
-.container2 .left h1 {
+.edu-experience-head-icon{
   font-size: 2rem;
   color: white;
   text-align: left;
   text-shadow: 0px 2px 4px black;
 }
 
-.container2 .left h4 {
+.edu-bkround-certificate .left h4 {
   font-size: 1rem;
   color: white;
   text-align: left;
 }
 
-.container2 .left p {
+.edu-bkround-certificate .left p {
   color: white;
 }
 
-.container2 .left ul {
+.edu-bkround-certificate .left ul {
   font-size: 1rem;
   text-shadow: 0px 2px 4px black;
   list-style-type: none;
   padding: 0px;
 }
 
-.container2 .right {
+.edu-bkround-certificate .right {
   width: 50%;
   background-color: white;
   box-shadow: 0px 0px 05px 0px black;
@@ -354,34 +374,34 @@ header i:hover {
   padding: 20px;
 }
 
-.container2 .right:hover {
+.edu-bkround-certificate .right:hover {
   transform: scale(1.04);
   filter: drop-shadow(0px 0px 3px black);
 }
 
-.container2 .right h1 {
+.cert-awards-head-icon {
   font-size: 2rem;
   text-align: left;
 }
 
-.container2 .right h3 {
+.edu-bkround-certificate .right h3 {
   font-size: 1.5rem;
   margin: 0px;
   padding: 0px;
 }
-.container2 .right h1 {
+.edu-bkround-certificate .right h1 {
   font-size: 2rem;
 
   text-align: left;
 }
 
-.container2 .right h4 {
+.edu-bkround-certificate .right h4 {
   font-size: 1rem;
   color: rgb(83, 83, 83);
   text-align: left;
 }
 
-.container2 .right ul {
+.edu-bkround-certificate .right ul {
   font-size: 1rem;
   color: black;
   text-align: left;
@@ -392,7 +412,7 @@ header i:hover {
 
 /* Containe r3 Start Here */
 
-.container3 {
+.technical-skills-and-languages {
   display: flex;
   position: relative;
   border-radius: 20px;
@@ -402,16 +422,16 @@ header i:hover {
   cursor: pointer;
 }
 
-.container3 .left:hover,
+.technical-skills-and-languages .left:hover,
 .right:hover {
   transform: scale(1.04);
   filter: drop-shadow(0px 0px 3px black);
 }
 
-.container3 ul {
+.technical-skills-and-languages ul {
   list-style-type: none;
 }
-.container3 .left {
+.technical-skills-and-languages .left {
   width: 50%;
   background: rgb(92, 92, 223);
   box-shadow: 0px 0px 05px 0px black;
@@ -420,20 +440,20 @@ header i:hover {
   transition-duration: 0.5s;
 }
 
-.container3 .left h1 {
+.tech-skill-head-icon {
   font-size: 2rem;
   color: white;
   text-shadow: 0px 2px 4px black;
   text-align: center;
 }
 
-.container3 .left p {
+.technical-skills-and-languages .left p {
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
 }
 
-.container3 .bar span {
+.technical-skills-and-languages .bar span {
   display: block;
   background-color: rgb(241, 237, 237);
   width: 75%;
@@ -445,7 +465,7 @@ header i:hover {
   border: 2px solid rgb(77, 76, 76);
 }
 
-.container3 .bar.web span::before {
+.technical-skills-and-languages .bar.web span::before {
   position: absolute;
   content: '';
   width: 50%;
@@ -454,7 +474,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container3 .bar.css span::before {
+.technical-skills-and-languages .bar.css span::before {
   position: absolute;
   content: '';
   width: 70%;
@@ -463,7 +483,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container3 .bar.adobe span::before {
+.technical-skills-and-languages .bar.adobe span::before {
   position: absolute;
   content: '';
   width: 70%;
@@ -472,7 +492,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container3 .bar.photo span::before {
+.technical-skills-and-languages .bar.photo span::before {
   position: absolute;
   content: '';
   width: 80%;
@@ -482,7 +502,7 @@ header i:hover {
   left: 0px;
 }
 
-.container3 .right {
+.technical-skills-and-languages .right {
   width: 50%;
   height: 320px;
   box-shadow: 0px 0px 05px 0px black;
@@ -493,19 +513,21 @@ header i:hover {
   transition-duration: 0.5s;
 }
 
-.container3 .right h1 {
+.languages-head-icon {
+  font-size: 2rem;
+  color: black;
+  text-shadow: 0px 2px 4px white;
   text-align: center;
-  margin-top: 20px;
 }
 
-.container3 .right p {
+.technical-skills-and-languages .right p {
   text-align: center;
   margin-top: 10px;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.container3 .bar span {
+.technical-skills-and-languages .bar span {
   display: block;
   background-color: rgb(241, 237, 237);
   width: 75%;
@@ -517,7 +539,7 @@ header i:hover {
   border: 2px solid rgb(77, 76, 76);
 }
 
-.container3 .bar.english span::before {
+.technical-skills-and-languages .bar.english span::before {
   position: absolute;
   content: '';
   width: 80%;
@@ -526,7 +548,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container3 .bar.dutch span::before {
+.technical-skills-and-languages .bar.dutch span::before {
   position: absolute;
   content: '';
   width: 50%;
@@ -535,7 +557,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container3 .bar.urdu span::before {
+.technical-skills-and-languages .bar.urdu span::before {
   position: absolute;
   content: '';
   width: 95%;
@@ -544,7 +566,7 @@ header i:hover {
   border-radius: 10px;
   left: 0px;
 }
-.container3 .bar.hindi span::before {
+.technical-skills-and-languages .bar.hindi span::before {
   position: absolute;
   content: '';
   width: 65%;

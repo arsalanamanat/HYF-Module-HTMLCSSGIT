@@ -10,9 +10,14 @@ By Clicking <a href="https://github.com/arsalanamanat/HYF-Module-HTMLCSSGIT/blob
 
 I have also uploaded my Digital Resume. Your Feedback - Comments and Suggestions will be Appreciated.
 To view the digital Resume Code Click <a href="https://github.com/arsalanamanat/HYF-Module-HTMLCSSGIT/blob/master/Week1/resume1.html">Here</a>
-
-
-
-
 To View this Digital Resume on CodePen Link Please Click <a href="https://codepen.io/arsalan-amanat/project/full/Zmqobb">Here</a>
+
+
+
+<h1> Second Week Home Work </h1>
+In this File you will find the Home Work for the Week2 .
+
+
+
+To view the code for week 2 Click <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT/Week2/index.html">Here</a>
 

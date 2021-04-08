@@ -19,5 +19,5 @@ In this File you will find the Home Work for the Week2 .
 
 
 
-To view the code for week 2 Click <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT/Week2">Here</a>
+To view the code for week 2 Click <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT>Here</a>
 

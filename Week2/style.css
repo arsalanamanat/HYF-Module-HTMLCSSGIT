@@ -16,6 +16,7 @@
   box-sizing: border-box;
   background: -webkit-linear-gradient(rgba(238, 238, 238, 0.397),rgba(12, 90, 116, 0.486));
   text-align: center;
+  
     }
 
   section {
@@ -95,14 +96,18 @@ img:hover {
 li {
   cursor: pointer;
   transition:ease-in-out 0.8s;
-  border-radius: 25%;
+  border-radius: 15%;
+ 
 }
 
 li:hover {
 
   background: -webkit-linear-gradient(rgba(238, 238, 238, 0.397),rgba(15, 107, 138, 0.486));
   transform: scale(1.05);
+  
 }
+
+
 
    /* Responsive design for mobile */
 

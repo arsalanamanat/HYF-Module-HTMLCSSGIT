@@ -83,16 +83,16 @@ p::first-line {
   width:60%;
   filter: drop-shadow(10px 10px 05px black);
   cursor:pointer;
-  transition:1s;
+  transition:ease-in-out 1s;
+  
 }
 
 img:hover {
 
   filter: invert(100%);
-  transform:scale(1.2);
+  transform:scale(1.3);
   filter: drop-shadow(10px 10px 05px rgb(236, 241, 157));
 }
-
 li {
   cursor: pointer;
   transition:ease-in-out 0.8s;

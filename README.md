@@ -6,16 +6,16 @@ In this File you will find the Home Work for the Week1 .
 
 
 For Command Line Interface 
-By Clicking <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT/Week1/Commandlineanswers.txt">Here</a>
+By Clicking <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT/Week1/Commandlineanswers.txt">Here</a><br>
 
 I have also uploaded my Digital Resume. Your Feedback - Comments and Suggestions will be Appreciated.
-To view the digital Resume Code Click <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT/Week1/resume1.html">Here</a>
-To View this Digital Resume on CodePen Link Please Click <a href="https://codepen.io/arsalan-amanat/project/full/Zmqobb">Here</a>
+To view the digital Resume Code Click <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT/Week1/resume1.html">Here</a><br>
+To View this Digital Resume on CodePen Link Please Click <a href="https://codepen.io/arsalan-amanat/project/full/Zmqobb">Here</a><br>
 
 
 
 <h1> Second Week Home Work </h1>
-In this File you will find the Home Work for the Week2 .
+In this File you will find the Home Work for the Week2 .<br>
 
 
 

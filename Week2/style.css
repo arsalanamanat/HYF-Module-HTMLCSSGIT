@@ -164,7 +164,7 @@ h3 {
 }
 
 p{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   }
 
 
@@ -174,12 +174,13 @@ p{
   height:500px;
   cursor:pointer;
   transition:1s;
+
 }
 .grid-floats li:nth-child(n+3) {
   
  float:left; 
   width:33.3%;
-  height:550px;
+  height:580px;
 }
  
 
@@ -206,6 +207,11 @@ p{
 
 @media only screen and (min-width: 1024px)
 {
+
+  p {
+font-size:0.9rem;
+
+  }
 
 h3 {
 
@@ -243,7 +249,7 @@ h3 {
   
  float:left; 
   width:25%;
-  height:550px;
+  height:600px;
 }
  
 

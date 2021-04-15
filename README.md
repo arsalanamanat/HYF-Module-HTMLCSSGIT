@@ -27,5 +27,5 @@ In this File you will find the Home Work for the Week3 .<br>
 
 
 
-To view the publish page week 2 Click <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT/Week3/index.html">Here</a>
+To view the publish page week 2 Click <a href="https://arsalanamanat.github.io/HYF-Module-HTMLCSSGIT/week3/index.html">Here</a>
 
